@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/1b98a405-c64e-4e3f-9ed1-cedcbe577b03)
+![image](https://github.com/user-attachments/assets/a964a875-7162-4c7d-af95-c61016bdfa16)![image](https://github.com/user-attachments/assets/1b98a405-c64e-4e3f-9ed1-cedcbe577b03)
 
 In this repo I have solved the **Task 4** from the room https://tryhackme.com/r/room/adventofcyber24sidequest
 
@@ -128,5 +128,25 @@ https://github.com/alexander-utkov/rekobee-analyzer
 
 I downloaded this and then went through the walkthrough of the tool how are we supposed to use it and what can it be used for....
 
+But before running the tool make sure to export the wireshark packets by using the following filters..
+```
+tcp.port == 9001 && data
+```
+There will be around 141 packets save that file and then run the command given in the github repo
 
+```
+python analyze.py -c 9001data.pcapng -s SuP3RSeCrEt
+```
+Then you will output like this..
+
+![image](https://github.com/user-attachments/assets/3f98cdd5-92c9-41e6-ab21-cea47fb980ee)
+
+Here we can see that the zip was protected using the following password,
+
+Here we get the answer to the third question `9jYW5fRW5jcnlwVF9iVXR`
+
+Now lets unzip the file and see what it has to offer..
+![image](https://github.com/user-attachments/assets/0c37d54a-73f9-40f7-aa98-a9ed168a4d25)
+
+And there we have the answer for the last question with this task 4 is completed.
 
