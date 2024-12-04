@@ -1,6 +1,6 @@
 ![image](https://github.com/user-attachments/assets/1b98a405-c64e-4e3f-9ed1-cedcbe577b03)
 
-In this I have solved the Task 4 from the room https://tryhackme.com/r/room/adventofcyber24sidequest
+In this repo I have solved the **Task 4** from the room https://tryhackme.com/r/room/adventofcyber24sidequest
 
 Lets start with the first thing that is L1 KEY CARD (**hard to get fcard :)** card for sure), for this deploy the room from day 1 of advent cyber event,
 While dealing with this room earlier I did a nmap scan but didn't knew this is where the card will be store and how I got to know that lets found out that.
