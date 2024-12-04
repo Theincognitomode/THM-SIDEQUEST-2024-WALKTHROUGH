@@ -31,7 +31,7 @@ These were the last line of the code (47-48) so it means the C2 server is active
 ![image](https://github.com/user-attachments/assets/4e492a70-a93c-4742-a636-21ad930dfa22)
 **BINGOO** we found the c2 login portal lets try to log in this site..
 
-Remeber we read the source code ( "https://github.com/Bloatware-WarevilleTHM/C2-Server/blob/main/app.py" if you havent then please go through it) there was **app.secret_key** any idea what that does, well i also didn't have any idea what it was used for so I searched online and looked for it then i got to know that it is used in flask language to reveal some secrets from stack overflow (https://stackoverflow.com/questions/22463939/demystify-flask-app-secret-key)
+Remeber we read the source code ( "https://github.com/Bloatware-WarevilleTHM/C2-Server/blob/main/app.py" ) _if you havent then please go through it_  there was **app.secret_key** any idea what that does, well i also didn't have any idea what it was used for so I searched online and looked for it then i got to know that it is used in flask language to reveal some secrets from stack overflow (https://stackoverflow.com/questions/22463939/demystify-flask-app-secret-key)
 
 So I searched how can this be exploited or how can I use it to unlock the chambers of the C2, while searching i got this useful article https://book.hacktricks.xyz/network-services-pentesting/pentesting-web/flask#flask-unsign, was really useful article..
 
