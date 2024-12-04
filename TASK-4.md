@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/a964a875-7162-4c7d-af95-c61016bdfa16)![image](https://github.com/user-attachments/assets/1b98a405-c64e-4e3f-9ed1-cedcbe577b03)
+![image](https://github.com/user-attachments/assets/1b98a405-c64e-4e3f-9ed1-cedcbe577b03)
 
 In this repo I have solved the **Task 4** from the room https://tryhackme.com/r/room/adventofcyber24sidequest
 
@@ -149,4 +149,3 @@ Now lets unzip the file and see what it has to offer..
 ![image](https://github.com/user-attachments/assets/0c37d54a-73f9-40f7-aa98-a9ed168a4d25)
 
 And there we have the answer for the last question with this task 4 is completed.
-
