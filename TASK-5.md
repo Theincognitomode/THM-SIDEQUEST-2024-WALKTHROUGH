@@ -89,4 +89,9 @@ Now for the **YIN** flag what we will do the same process but we will make **YAN
 
 1. So on yang you change ros_master_uri to yang ip, then you run roscore and then you run sudo ./yang.sh
 2. Now on yin you have to set ros_master_uri to yang's ip, and in /etc/hosts change localhost ip to yang's ip, and now you we run our custom script.
-3. Navigate the directory mentione there you will see the YANG flag..
+3. Navigate the directory mentione there you will see the YIN flag..
+
+```
+THM{Yin.cannot.exist.without.a.little.bit.of.Yang}
+```
+Hope you like this, it was really a very confusing room but once you get the point that at a single time only one can be the master then you won't have any issue in going with the flow of the room, overall really a nice concept and learned a lot from it.
