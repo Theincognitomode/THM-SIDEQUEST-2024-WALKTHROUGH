@@ -70,3 +70,23 @@ Now why are we first trying to get the **yang** file is becuase if you will read
 cat /root/flag.txt -> /home/yang/yangflag.txt 
 ```
  For the whole script check the yangscript.py just below this task file..
+
+From the above code we can recover two things 
+1. YANG FLAG
+2. Secret key
+Now if you will read the code carefully on the **YIN** machine you will see that it is mandatory to use the secret.txt which is nothing but a passphrase, but for this you will have to follow the below process :
+
+Yes its confusing but you just simply have to run the script instead of running anything else..
+
+1. So on yin you change ros_master_uri to yin ip, then you run roscore and then you run sudo ./yin.sh
+2. Now on yang you have to set ros_master_uri to yin's ip, and in /etc/hosts change localhost ip to yin's ip, and now you we run our custom script.
+3. Navigate the directory mentioned there you will see the YANG flag..
+```
+THM{Yang.also.needs.Yin.to.survive}
+```
+
+Now for the **YIN** flag what we will do the same process but we will make **YANG** as the master node and do the following process for it, and you can copy and change the ip from the yinscript.py
+
+1. So on yang you change ros_master_uri to yang ip, then you run roscore and then you run sudo ./yang.sh
+2. Now on yin you have to set ros_master_uri to yang's ip, and in /etc/hosts change localhost ip to yang's ip, and now you we run our custom script.
+3. Navigate the directory mentione there you will see the YANG flag..
